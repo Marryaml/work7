@@ -134,9 +134,11 @@
     width: 370px;
     height: 451px;
     display: flex;
+    flex-direction: column;
     align-items: center;
     justify-content: center;
     position: relative;
+    max-width: 100%;
  
 
 }
@@ -171,4 +173,28 @@
     background: #FF8088;
     margin-top: 52px;
     
+}
+
+.comp{
+    position: absolute;
+    top: 117px;
+    left: 140px;
+}
+
+.first{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-top: 10px;
+
+    /* position: absolute;
+    bottom: 50px;
+    left: 130px; */
+    width: 131px;
+    height: 45px;
+    border-radius: 23px;
+    text-align: center;
+    background: #FFFFFF;
+    text-align: center;
+
 }
