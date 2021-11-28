@@ -1,0 +1,11 @@
+/* header responsive */
+
+@media (max-width: 768px) {
+    .main_navigation{
+        display: none;
+    }
+    .burger-icon{
+        display: block;
+
+    }
+}
